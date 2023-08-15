@@ -1,6 +1,7 @@
 body {
   margin: 60px auto;
   max-width: 800px;
+  background-color: aquamarine;
 }
 h2 {
   font-size: 48px;
@@ -8,13 +9,9 @@ h2 {
 h1 {
   font-size: 96px;
 }
-h3 {
-  font-size: 24px;
-  opacity: 0.7;
-}
+
 h1,
-h2,
-h3 {
+h2 {
   text-align: center;
   margin: 0%;
 }
@@ -36,7 +33,7 @@ h3 {
   box-shadow: var(--box-shadow);
   color: white;
 }
-.about-link {
+.photo-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
@@ -45,7 +42,7 @@ h3 {
   justify-content: center;
   margin-top: 40px;
 }
-.homepage-link {
+.home-link {
   color: var(--primary-color);
   text-align: center;
   display: block;
